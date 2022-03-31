@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+h1, form, table {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+form, table, input {
+    font-size: x-large;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid;
+}
+
+/* #High_Scores {
+    float: right;
+} */

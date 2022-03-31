@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Dice Game</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Dice Game</h1>
+
+    <table id="player_info">
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Previous Score</th>
+            <th>High Score</th>
+        </tr>
+        <tr>
+            <td>{{ username }}</td>
+            <td>{{ score }}</td>
+            <td>{{ previous_score }}</td>
+            <td>{{ high_score }}</td>
+        </tr>
+    </table>
+    <form action="/" method="post">
+        <label>Name</label>
+        <input type="text" id="username" name="username">
+        <input type="submit" value="Roll">
+    </form>
+    <table id="High_Scores">
+        <tr>
+            <th>Name</th>
+            <th>High Score</th>
+        </tr>
+        {% for u in users %}
+        <tr>
+            <td>{{ u.username }}</td>
+            <td>{{ u.high_score }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
