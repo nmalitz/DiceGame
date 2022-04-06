@@ -26,7 +26,7 @@ Clone the repository to your machine using this url https://github.com/nmalitz/D
 4. Input the following command `source env/bin/activate`
 
 ## Download Dependencies
-While in the virtual environment setup in the previous section, enter the following command `pip3 install flask flask-sqlalchemy`
+While in the virtual environment setup in the previous section, enter the following command `pip3 install flask flask-sqlalchemy gunicorn`
 
 ## Create/Populate Database
 1. From the project folder open an instance of Terminal in VS Code.
