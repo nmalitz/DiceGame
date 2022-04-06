@@ -20,7 +20,7 @@ Goto this [link](https://www.python.org/downloads/) and follow the instructions 
 Clone the repository to your machine using this url https://github.com/nmalitz/DiceGame.git
 
 ## Create/Enter Virtual Environment
-1. In an instance of VS Code, pointed at the project file cloned from the repository, open up a new session of Terminal.
+1. In an instance of VS Code, pointed at the project folder cloned from the repository, open up a new session of Terminal.
 2. Input the following command `pip3 install virtualenv`
 3. Input the following command `virtualenv env`
 4. Input the following command `source env/bin/activate`
